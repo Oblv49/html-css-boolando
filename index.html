@@ -19,12 +19,13 @@
     
     <!-- Analisi -->
     <!--Sezioni principali: Header, Main, Footer.
-        Header: un contenitore flex che contiene a sua volta tre contenitori: una lista non puntata con "Donna Uomo 
-                Bambini"; un altro contenitore con il logo ed il terzo contenitore con le icone.
+        Header: un contenitore flex che contiene a sua volta tre contenitori: primo contenitore tre paragarafi 
+                con rispettivamente "Donna Uomo Bambini"; un altro contenitore con il logo ed il 
+                terzo contenitore con le icone.
           Main: Un contenitore_main flex con larghezza del 60/70% con un Titolo e un sottotitolo; 
                 poi un altro contenitore flex che conterrà le card prodotto. Tre card per riga. Due righe.
-        Footer: background black con due contenitori flex divisi da spazio: uno con nome azienda e lista senza puntini 
-                per "InformazioniLegali InformazioniSullaPrivacy DirittoDiRecesso";
+        Footer: background black con due contenitori flex divisi da spazio: uno con nome azienda e lista 
+                senza puntini per "InformazioniLegali InformazioniSullaPrivacy DirittoDiRecesso";
                 nel secondo, paragrafo con "TrovaciAncheSu" e sotto le icone di twitter facebook instagram pintarest e youtube.
           Card: contenitore flex con immagine con altezza almeno 400px; paragrafo contenente marca del prodotto, 
                 h4 o h5 per il nome del prodotto; infine paragrafo con costo scontato e accanto un paragrafo 
@@ -37,8 +38,31 @@
 
 
 <body>
-    <header>
-        
+    <header>      
+        <!-- contenitore header -->
+        <div class="bg_orange h_70 flex_space_around align_center_f">
+
+                <!-- donna uomo bambino -->
+                <div class="flex text_white font_signika fw_900">
+                    <p class="ml_5 mr_5">Donna</p>
+                    <p class="ml_5 mr_5">Uomo</p>
+                    <p class="ml_5 mr_">Bambini</p>
+                </div>
+              
+                <!-- logo -->
+                <div class="flex">
+                    <img class="h_30" src="./img/boolean-logo.png">
+                </div>
+                
+                
+                <!-- icone -->
+               <div>
+                    <i class="fa-regular fa-user text_white"></i>
+                    <i class="fa-regular fa-heart text_white"></i>
+                    <i class="fa-solid fa-bag-shopping text_white"></i> 
+               </div>
+                   
+        </div>
 
     </header>
 
