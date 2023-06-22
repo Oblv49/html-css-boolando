@@ -9,8 +9,8 @@
     border: 1px solid violet;
 }
 
-.border_black {
-    border: 1px solid rgb(34, 34, 34);
+.border_gray {
+    border: 0.5px solid #e1e1e1;
 }
 
 
@@ -40,6 +40,10 @@
 /* text colors */
 .text_white {
     color: white;
+}
+
+.text_black {
+    color: black;
 }
 
 .text_red {
@@ -114,6 +118,11 @@
     height: 30px;
 }
 
+/* width */
+
+.w_100 {
+    width: 100%;
+}
 
 
 /* paddings */
@@ -186,6 +195,12 @@
 .row_gap_20 {
     row-gap: 20px;
 }
+
+.row_gap_40 {
+    row-gap: 40px;
+}
+
+
 
 .align_items_c {
     display: flex;
