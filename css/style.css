@@ -17,3 +17,7 @@
     width: 30%;
     min-width: 300px;
 }
+
+.position_fixed {
+    position: fixed;
+}
