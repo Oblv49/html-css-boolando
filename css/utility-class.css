@@ -34,6 +34,11 @@
     color: white;
 }
 
+.text_red {
+    color: red;
+}
+
+
 .text_purple {
     color: rgb(210, 14, 210)
 }
@@ -51,19 +56,28 @@
     text-align: center;
 }
 
+.fw_900 {
+    font-weight: 900;
+}
+
 .fw_600 {
     font-weight: 600;
 }
 
-.fw_900 {
-    font-weight: 900;
-}
 
 .fw_400 {
     font-weight: 400;
 }
 
+.fw_100 {
+    font-weight: 100;
+}
+
 /* heights */
+.h_400 {
+    height: 400px;
+}
+
 .h_100 {
     height: 100px;
 }

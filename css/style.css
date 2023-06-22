@@ -5,10 +5,15 @@
 }
 
 #main_container {
-    width: 70%;
+    width: 60%;
     margin: auto;
 }
 
 .font_signika {
     font-family: Signika, sens serif;
+}
+
+.card {
+    width: 30%;
+    min-width: 300px;
 }
