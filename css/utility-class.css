@@ -25,6 +25,10 @@
 .bg_darkGray{
     background-color: rgb(26, 26, 26);
 }
+
+.shadow_bottom {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+}
 /* text colors */
 .text_white {
     color: white;
@@ -55,6 +59,10 @@
     font-weight: 900;
 }
 
+.fw_400 {
+    font-weight: 400;
+}
+
 /* heights */
 .h_100 {
     height: 100px;
@@ -82,8 +90,8 @@
     margin-top: 20px;
 }
 
-.mt_40 {
-    margin-top: 40px;
+.mt_50 {
+    margin-top: 50px;
 }
 
 .mb_20 {
