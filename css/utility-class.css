@@ -94,6 +94,10 @@
 
 
 /* heights */
+.h_500 {
+    height: 500px;
+}
+
 .h_400 {
     height: 400px;
 }
@@ -200,7 +204,9 @@
     row-gap: 40px;
 }
 
-
+.row_gap_60 {
+    row-gap: 60px;
+}
 
 .align_items_c {
     display: flex;
