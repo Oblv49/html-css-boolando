@@ -1,0 +1,122 @@
+/* UTILITY CLASS CSS*/
+
+/* borders */
+.border_green {
+    border: 2px solid green;
+}
+
+.border_violet {
+    border: 2px solid violet;
+}
+
+/* backgrounds */
+.bg_red {
+    background-color: red;
+}
+
+.bg_dark {
+    background-color: rgb(15, 14, 23);
+}
+
+/* text colors */
+.text_white {
+    color: white;
+}
+
+.text_purple {
+    color: rgb(210, 14, 210)
+}
+
+.text_orange {
+    color: orange;
+}
+
+.text_lightblue {
+    color: rgb(134, 134, 255);
+}
+
+/* text alignment */
+.text_center {
+    text-align: center;
+}
+
+.fw_600 {
+    font-weight: 600;
+}
+
+/* heights */
+.h_100 {
+    height: 100px;
+}
+
+.h_50 {
+    height: 50px;
+}
+
+/* paddings */
+.p_10 {
+    padding: 10px;
+}
+
+/* margins top*/
+.mt_20 {
+    margin-top: 20px;
+}
+
+.mt_40 {
+    margin-top: 40px;
+}
+
+.mb_20 {
+    margin-bottom: 20px;
+}
+
+.ml_10 {
+    margin-left: 10px;
+}
+
+.mr_10 {
+    margin-right: 10px;
+}
+
+.m_5 {
+    margin: 5px 0px;
+}
+
+/* FLEX */
+.flex {
+    display: flex;
+}
+
+.wrap_w {
+    flex-wrap: wrap;
+}
+
+.flex_space_around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.align_center_f {
+    align-items: center;
+}
+
+.row_gap_20 {
+    row-gap: 20px;
+}
+
+.align_items_c {
+    display: flex;
+    align-items: center;
+}
+
+/* lists */
+
+.no_bullets {
+    list-style-type: none;
+}
+
+/* other */
+.border_rad_10 {
+    border-radius: 10px;
+}
