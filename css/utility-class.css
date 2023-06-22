@@ -2,15 +2,15 @@
 
 /* borders */
 .border_green {
-    border: 2px solid green;
+    border: 1px solid green;
 }
 
 .border_violet {
-    border: 2px solid violet;
+    border: 1px solid violet;
 }
 
 .border_black {
-    border: 2px solid black;
+    border: 1px solid rgb(34, 34, 34);
 }
 
 
