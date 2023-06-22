@@ -145,6 +145,10 @@
     margin-top: 50px;
 }
 
+.mt_100 {
+    margin-top: 100px;
+}
+
 .mb_20 {
     margin-bottom: 20px;
 }
@@ -170,7 +174,9 @@
     margin: 5px 0px;
 }
 
-
+.mb_50 {
+    margin-bottom: 50px;
+}
 
 
 /* FLEX */
